@@ -1,6 +1,6 @@
 //GETTING X PARSING USER RUN DATA
 
-Papa.parse("https://raw.githubusercontent.com/nassEla/physbenchmark_demo/master/Sample_Nike_run_data_1_raw.csv", {
+Papa.parse("http://www.arcgis.com/sharing/rest/content/items/c633a6de3f4543638433591cd180cef6/data", {
 
 	download: true,
 	header: true,
