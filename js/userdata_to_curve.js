@@ -1,6 +1,6 @@
 //GETTING X PARSING USER RUN DATA
 
-Papa.parse("https://github.com/nassEla/physbenchmark_demo/blob/master/Sample_Nike_run_data_1_raw.csv", {
+Papa.parse("https://raw.githubusercontent.com/nassEla/physbenchmark_demo/master/Sample_Nike_run_data_1_raw.csv", {
 
 	download: true,
 	header: true,
