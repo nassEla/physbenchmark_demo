@@ -1,6 +1,6 @@
 //GETTING X PARSING USER RUN DATA
 
-Papa.parse("http://localhost:8000/Sample_Nike_run_data_1_raw.csv", {
+Papa.parse("https://github.com/nassEla/physbenchmark_demo/blob/master/Sample_Nike_run_data_1_raw.csv", {
 
 	download: true,
 	header: true,
@@ -101,7 +101,7 @@ Papa.parse("http://localhost:8000/Sample_Nike_run_data_1_raw.csv", {
 	}
 });
 
-Papa.parse("http://localhost:8000/ideal_data_raw.csv", {
+Papa.parse("https://github.com/nassEla/physbenchmark_demo/blob/master/ideal_data_raw.csv", {
 
 	download: true,
 	header: true,
