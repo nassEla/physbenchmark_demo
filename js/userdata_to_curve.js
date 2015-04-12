@@ -1,6 +1,6 @@
 //GETTING X PARSING USER RUN DATA
 
-Papa.parse("http://www.arcgis.com/sharing/rest/content/items/c633a6de3f4543638433591cd180cef6/data", {
+Papa.parse("http://www.arcgis.com/sharing/rest/content/items/c633a6de3f4543638433591cd180cef6/data", { //otherwise access csv file on root
 
 	download: true,
 	header: true,
@@ -101,7 +101,7 @@ Papa.parse("http://www.arcgis.com/sharing/rest/content/items/c633a6de3f454363843
 	}
 });
 
-Papa.parse("https://github.com/nassEla/physbenchmark_demo/blob/master/ideal_data_raw.csv", {
+Papa.parse("http://www.arcgis.com/sharing/rest/content/items/c633a6de3f4543638433591cd180cef6/data", {
 
 	download: true,
 	header: true,
